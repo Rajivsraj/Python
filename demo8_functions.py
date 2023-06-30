@@ -74,3 +74,23 @@ abc = lambda x=0, y=0: x+y
 x = abc
 print(x())
 """
+
+
+"""def total(*num):
+    t = 0
+    num = list(num)
+    for x in num:
+        t+=x
+    print(t)
+
+total(10, 12, 54, 56, 34)"""
+
+
+
+def total(*num):
+    t = 0
+    for x in num[0]:
+        t+=x
+    print(t)
+
+total([10, 12, 54, 56, 34])
