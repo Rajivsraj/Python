@@ -1,0 +1,8 @@
+STRING
+1. WAP to create a function to do initial letter capital
+2. WAP to create a function to capital all the letter
+3. check the given string letters (all letters) is capital or small
+4. remove all the spaces from left of string
+5. remove all the spaces from right of string
+6. remove all the spaces from left and right of string
+7. add user given string to your variable string, at the left side of string.

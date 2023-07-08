@@ -82,3 +82,130 @@ string = "Shatrughan"
 
 # rev = string[::-1]
 # print(rev)
+
+
+# STRING
+"""
+name = "Hello mohan how " \
+       "are you"
+# name = 'mohan'
+
+# mutiple line string
+namem = "hello hi" \
+        "how are you"
+# print(name)
+print(namem)"""
+
+
+# multiple line string
+'''
+name = """ 1st line
+    hello first line
+    2nd line
+    3rd line
+                lsdf
+last line """
+'''
+"""
+name = ''' 1st line
+    hello first line
+    2nd line
+    3rd line
+                lsdf
+last line '''
+"""
+# print(name)
+
+# Immutalbe
+"""
+name = "rahul"
+name[0] = "k"   # not possible
+name = "sohan"
+print(name)"""
+
+
+# repeat the sting
+"""
+name = "neetu"*2
+print(name)
+"""
+
+
+# Concatenate
+"""
+fname = "neetu"
+lname = "singh"
+fullname = fname+lname
+print(fullname)
+"""
+
+"""
+name = "mohan "
+extra = name*2+"hi"
+print(extra)
+"""
+
+
+# string format (with current version)
+"""name = "sohan"
+age = 20
+
+# f-string
+print(f"my name is {name} and my age is {age}")
+
+# c-style
+print("my name is %s and my age is %d" %(name, age))
+
+# string format method
+print("my name is {} and my age is {}".format(name, age))
+print("my name is {1} and my age is {0}".format(name, age))
+"""
+
+name = "mohan"
+# print(name.capitalize())
+# print(name.upper())
+# print("sohan".upper())
+"""
+name = "MOHAN"
+if name.isupper():
+    print("mohans's initial letter is capital")
+    print(name.isupper())
+else:
+    print("mohan's initial letter in not capital")
+    print(name.isupper())
+"""
+
+"""
+name = "  sohan"
+print(name)
+print(name.lstrip())
+"""
+
+name = " mohan "
+print(name)
+print(name.strip())
+"""
+capitalize()
+upper()
+lower()     - TYS
+isupper()
+islower()   - TYS
+lstrip()
+rstrip()    - TYS
+strip()
+replace() - TYS
+endwidth() - YTS
+rjust() - TYS
+ljsut() - TYS
+center() - TYS
+"""
+
+# conversion of letters to ascii code
+"""
+char = "a"
+print(ord(char))
+
+# conversion of ascii to letter
+ascii = 97
+print(chr(ascii))
+"""
