@@ -1,4 +1,5 @@
 STRING
+08/07/2023
 1. WAP to create a function to do initial letter capital
 2. WAP to create a function to capital all the letter
 3. check the given string letters (all letters) is capital or small
@@ -6,3 +7,22 @@ STRING
 5. remove all the spaces from right of string
 6. remove all the spaces from left and right of string
 7. add user given string to your variable string, at the left side of string.
+8. "sdlkjsd5iofklsdjsjlkfsrlicmmkdjs" count occurrence of char.
+    eg.
+      s: 6
+      d: 4
+9.  WAP to check a specific word is exists or not
+    "hello everyone how are you?"
+    - find "how"
+        if this is exists give true else false
+10.Write a python program to sort letters of word by lower to upper case format.
+    given: pytHOnloBBy
+    output: p y t n l o y H O B B
+
+11. Write a program in Python to remove an empty character from a list sequence.
+    Given n = [“name”,”age”,””,”hello”]
+    Output:  [‘name’, ‘age’, ‘hello’]
+
+12. Python program to convert all the starting letter of a word in upper case format or in the title format.
+    Given n = “hello this is pythonlobby”
+    Output: Hello This Is Pythonlobby
