@@ -161,7 +161,7 @@ print("my name is {} and my age is {}".format(name, age))
 print("my name is {1} and my age is {0}".format(name, age))
 """
 
-name = "mohan"
+# name = "mohan"
 # print(name.capitalize())
 # print(name.upper())
 # print("sohan".upper())
@@ -181,9 +181,9 @@ print(name)
 print(name.lstrip())
 """
 
-name = " mohan "
-print(name)
-print(name.strip())
+# name = " mohan "
+# print(name)
+# print(name.strip())
 """
 capitalize()
 upper()
@@ -209,3 +209,28 @@ print(ord(char))
 ascii = 97
 print(chr(ascii))
 """
+
+# all scape sequence
+# print("\n".isprintable())
+
+# print("6".isdigit())
+
+# find the occurance
+# print("mohan kumar".count("o"))
+
+"""
+fname = "Rahul"
+lname = "Kumar"
+
+x = " ".join(fname)
+print(x)
+"""
+
+# extract numbers with comma separated
+"""
+fname = "Rah6u34l"
+lname = "Kumar"
+x = " ".join(fname)
+print(x)
+"""
+
