@@ -26,3 +26,57 @@ STRING
 12. Python program to convert all the starting letter of a word in upper case format or in the title format.
     Given n = “hello this is pythonlobby”
     Output: Hello This Is Pythonlobby
+
+Python LIST Questions
+======================================
+    1. Python program to interchange first and last elements in a list
+    2. Python program to swap two elements in a list
+        Input : List = [1, 2, 3, 4, 5], pos1 = 2, pos2 = 5
+        Output : [1, 5, 3, 4, 2]
+    3. Python | Ways to find length of list
+    4. Print 2 Maximum numbers form list
+    5. Print 2 Minimum numbers form list
+
+Python STRING
+======================================
+    1. Python program to check whether the string is Symmetrical or Palindrome
+    2. Reverse words in a given String in Python
+    3. Ways to remove i’th character from string in Python
+    4. Find length of a string in python (4 ways)
+    5. Python program to print even length words in a string
+
+
+Python TUPLE
+======================================
+    Python program to Find the size of a Tuple
+    Python – Maximum and Minimum K elements in Tuple
+    Python – Sum of tuple elements
+    Python – Row-wise element Addition in Tuple Matrix
+    Create a list of tuples from given list having number and its cube in each tuple
+
+
+Python Dictionary Exercises
+=====================================
+    Python | Sort Python Dictionaries by Key or Value
+    Handling missing keys in Python dictionaries
+    Python dictionary with keys having multiple inputs
+    Python program to find the sum of all items in a dictionary
+    Python program to find the size of a Dictionary
+
+
+Python Functions Exercises
+==============================
+    How to get list of parameters name from a function in Python?
+    How to Print Multiple Arguments in Python?
+    Python program to find the power of a number using recursion
+    Sorting objects of user defined class in Python
+    Functions that accept variable length key value pair as arguments
+
+
+Python Lambda Exercises
+==============================
+    Lambda with if but without else in Python
+    Python | Sorting string using order defined by another string
+    Python | Find fibonacci series upto n using lambda
+    Python program to count Even and Odd numbers in a List
+    Python | Find the Number Occurring Odd Number of Times using Lambda expression and reduce function
