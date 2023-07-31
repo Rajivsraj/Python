@@ -80,3 +80,8 @@ Python Lambda Exercises
     Python | Find fibonacci series upto n using lambda
     Python program to count Even and Odd numbers in a List
     Python | Find the Number Occurring Odd Number of Times using Lambda expression and reduce function
+
+    add, sub, mul, division,
+    with nested function
+    with lambda
+    check odd or  even using lambda
