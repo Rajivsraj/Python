@@ -43,9 +43,10 @@ print(i)
 
 
 def recursion(no):
-    if no == 0:
-        return 0
-    return no * recursion(no - 1)
+    if no == 1:
+        return 1
+    else:
+        return no * recursion(no - 1)
 
 
 print(recursion(5))
