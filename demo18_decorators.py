@@ -1,3 +1,5 @@
+# decorator is a function that accept a function as an argument
+# decorator is used to modfiy existing functionality of a function with modify the original method
 def dec(fun):
     def inner():
         fun()
