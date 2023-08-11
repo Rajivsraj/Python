@@ -81,6 +81,7 @@ samsung.sum()"""
 # print(cmp.brand)
 
 
+"""
 # Instance Variable
 class Mobile(object):
     
@@ -110,3 +111,109 @@ cmp.setData(200, "Iphone", "Green")
 
 x.setData(2000, "Ixphone", "xGreen")
 print(x.price)
+"""
+
+"""
+# Class Variable
+class Company:
+    name = "RSUniverse Computer Institute"  #class variable
+
+    def __init__(self):
+        self.city = "New Delhi" #instance Variable
+        self.country = "India"  #instance Variable
+
+    def access_instance_var(self):
+        print(self.city)    # access instance variable
+        print(self.name)    # access cls variable
+
+cmp1 = Company()
+print(cmp1.city)
+print(cmp1.name)
+cmp1.access_instance_var()
+
+
+cmp2 = Company()
+cmp2.name = "Hello Company"
+print(cmp2.name)"""
+
+
+"""
+# object only get attributes and instance methods copy not values
+class Company:
+    cmp_name = "RSUniverse Computer Institute"
+
+    def set_val(self, ag, c):
+        self.age = ag
+        self.city = c
+
+
+obj1 = Company()
+obj1.set_val(20, "delhi")
+print(obj1.cmp_name)
+print(obj1.age)
+
+obj2 = Company()
+print(obj2.age)
+"""
+
+"""
+# class variable
+class Mobile:
+    
+    brand = "Samsung"   # class variable
+
+    print("hello")  # wrong way to use
+    # class method
+    @classmethod
+    def a_cls_var(xyz):
+        print(xyz.brand)
+
+    def ok(self):
+        self.x = "hello"
+
+obj1 = Mobile()
+obj1.a_cls_var()
+print(obj1.brand)
+obj1.ok()
+print(obj1.x)
+"""
+
+
+# access class variable outside the class
+"""
+class Mobile:
+    brand = "Samsung"  # class variable
+
+    # class method
+    @classmethod
+    def a_cls_var(xyz):
+        print(xyz.brand)
+
+obj1 = Mobile()
+# print(Mobile.brand)
+# print(obj1.brand)
+
+# obj1.brand = "New Brand" # overriding class value using object
+# print(obj1.brand)
+
+# obj2 = Mobile()
+# print(obj2.brand)
+
+Mobile.brand = "New Brand"
+print(obj1.brand)
+
+obj2 = Mobile()
+print(obj2.brand)"""
+
+
+# Static Method
+class Mobile:
+    @staticmethod
+    def static_method(a, b):
+        one = a
+        two = b
+        print(one+two)
+
+nokia = Mobile()
+nokia.static_method(10, 20)
+print(nokia.one)
