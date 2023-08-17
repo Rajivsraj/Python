@@ -207,7 +207,7 @@ print(obj2.brand)"""
 
 
 # Static Method
-class Mobile:
+"""class Mobile:
     @staticmethod
     def static_method(a, b):
         one = a
@@ -217,3 +217,5 @@ class Mobile:
 nokia = Mobile()
 nokia.static_method(10, 20)
 print(nokia.one)
+"""
+
