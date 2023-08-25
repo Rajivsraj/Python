@@ -85,5 +85,11 @@ x = f.readlines()   # without arg
 x = f.readlines(17)
 print(x)"""
 
-f = open("four.txt", "w+")
-f.write("hi")
+# f = open("four.txt", "w+")
+# f.write("hi")
+
+
+f = open("five.txt", "w+")
+f.writelines(["Hello universe\n", "hello"])
+f.seek(0)
+print(f.readlines())

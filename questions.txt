@@ -93,6 +93,16 @@ OOPS
 1. Create a class which have some methods
     - first method will take values from the user (id, name ,city, salary), user will give values until he/she the program not terminated by the user
     - 2nd method will set the values
-    - 3rd method will display the the values
+    - 3rd method will display the values
     - and also show when user started time of the entering value and terminated time,
     - when you will show the values then each record/row/data will come after a (1 second) second
+
+DATETIME
+===========
+1. Enter your birth date and show your alive year, month days
+
+
+FILE HANDLING (Small Project)
+=============
+1. Create a curd (dynamic)
+    = program should be menu driven
