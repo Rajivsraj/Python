@@ -64,12 +64,13 @@ class Crud:
             # data = f.readline()
             for line in f.readlines():
                 if empid in line:
-                    print("This record already exists please enter another record")
+                    print("This record already exists")
                     return True
 
     @classmethod
     def update_record(cls):
-        emp_id = input("Enter emp id: ")
+        with open(cls.file, "w") as f:
+            emp_id = input("Enter emp id: ")
 
 
 
@@ -77,4 +78,4 @@ obj = Crud()
 # obj.add_data()
 # obj.show_record()
 # obj.existing_record_prohibited()
-obj.show_single_record()
+obj.is_record_already_exists("101")
