@@ -71,12 +71,127 @@ from numpy import *
 # a3 = a1 > a2
 # print(a3)
 
+
 # any() all()
-a1 = array([10, 20, 300, 140, 50])
-a2 = array([10, 40, 40, 120, 500])
-a3 = a1 == a2
+# a1 = array([10, 20, 300, 140, 50])
+# a2 = array([10, 40, 40, 120, 500])
+# a3 = a1 == a2
+#
+# print(any(a1 == a2))
+# print(all(a1 == a2))
+#
+# print(a3)
 
-print(any(a1 == a2))
-print(all(a1 == a2))
 
-print(a3)
+
+
+# a1 = array([10, 20, 300, 140, 50])
+# a2 = array([10, 40, 40, 120, 500])
+#
+# res = a1==a2
+
+
+#
+# a1 = array([10, 20, 300, 140, 50])
+# a2 = array([11, 40, 40, 120, 500])
+# res = a1>a2
+#
+# # x = where(res, "ok", "not")
+# x = where(res, a1, a2)
+# print(x)
+
+
+# a1 = array([10, 20, 300, 0, 140, 50, 0, 100])
+# res = nonzero(a1)
+# print(res)
+
+#
+# a1 = array([10, 20, 300, 0, 140, 50, 0, 100])
+# a2 = a1
+# a3 = a1
+#
+# print(a1, id(a1))
+# print(a2, id(a2))
+#
+# a1[2]=222
+#
+# print(a1)
+# print(a2)
+
+
+
+#
+# a1 = array([10, 20, 300, 0, 140, 50, 0, 100])
+# a2 = a1.view()
+#
+# print(a1, id(a1))
+# print(a2, id(a2))
+#
+# a2[2]=333
+# a1[3] = 333333
+#
+# print(a1)
+# print(a2)
+
+
+
+
+
+
+# a1 = array([10, 20, 300, 0, 140, 50, 0, 100])
+# a2 = a1.copy()
+#
+# print(a1, id(a1))
+# print(a2, id(a2))
+#
+# a2[2]=333
+# a1[3] = 333333
+#
+# print(a1)
+# print(a2)
+
+
+#
+# no = 20
+# temp = no
+# print(no, temp)
+#
+# no = 100
+# print(no, temp)
+
+
+
+# a1 = array([10, 20])
+# a2 = a1
+#
+#
+# print(a1, id(a1), a2,  id(a2))
+# a2[0] = a2[0]+1
+# a2[1] = a2[1]+1
+#
+#
+# print(a1, a2)
+
+
+
+# a1 = array([10, 20, 300, 0, 140, 50, 0, 100])
+# res = reshape(a1, (4, 2))
+# res = reshape(a1, (1, 8))
+
+# print(res)
+
+
+
+# a1 = array([10, 20, 300, 0, 140, 50, 0, 100])
+# res = reshape(a1, (2, 2, 2))
+# print(res)
+
+
+# a1 = array([[10, 20, 300, 0], [140, 50, 0, 100]])
+# print(a1.ndim)
+
+a1 = array([10.21, 20, 300, 0, 140, 50, 0, 100])
+print(type(a1))
+print(a1.shape)
+print(a1.size)
+print(a1.itemsize)
