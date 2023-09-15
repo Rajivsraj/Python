@@ -190,8 +190,20 @@ from numpy import *
 # a1 = array([[10, 20, 300, 0], [140, 50, 0, 100]])
 # print(a1.ndim)
 
-a1 = array([10.21, 20, 300, 0, 140, 50, 0, 100])
-print(type(a1))
-print(a1.shape)
-print(a1.size)
-print(a1.itemsize)
+# a1 = array([10.21, 20, 300, 0, 140, 50, 0, 100])
+# print(type(a1))
+# print(a1.shape)
+# print(a1.size)
+# print(a1.itemsize)
+
+
+
+a = "89765767"
+b = "678569"
+# o/p: 90444336
+
+mp = list(map(lambda x: int(x)+1, a))
+
+# print(mp)
+# print(lst1, lst2)
+# print(lst1+lst2)
