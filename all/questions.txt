@@ -106,3 +106,20 @@ FILE HANDLING (Small Project)
 =============
 1. Create a curd (dynamic)
     = program should be menu driven
+
+
+
+PANDAS
+=========
+# Task1:  print series indexes
+
+
+
+
+
+
+TASAK
+=======
+T1:
+s = "abcatsassy"
+find the max length substring
