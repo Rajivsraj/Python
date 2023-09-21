@@ -79,14 +79,83 @@ import numpy as np
 # print(df)
 
 
-sr1 = pd.Series([10, 20, 34, 30])
-sr2 = pd.Series([11, 12, 13, 14])
-sr4 = pd.Series([11, 12, 13, 14])
-
-sr3 = pd.Series([sr1, sr2])
+# sr1 = pd.Series([10, 20, 34, 30])
+# sr2 = pd.Series([11, 12, 13, 14])
+# sr4 = pd.Series([11, 12, 13, 14])
+#
+# sr3 = pd.Series([sr1, sr2])
 # print(sr3)
 
 
 # df = pd.DataFrame([sr1, sr2])
-df = pd.DataFrame(sr3)
+# df = pd.DataFrame(sr3)
+# print(df)
+
+
+#
+# dic = {
+#     "rollno": [101, 102, 103, 104],
+#     "name": ["Rahul", "Sumit", "amit", "ajay"],
+#     "city": ["New Delhi", "mumbai", "punjab", "Haryana"]
+# }
+#
+# df = pd.DataFrame(dic)
+# print(df["rollno"][2])
+
+# print using loop
+
+
+
+# add new col
+# dic = {
+#     "rollno": [101, 102, 103, 104],
+#     "name": ["Rahul", "Sumit", "amit", "ajay"],
+#     "city": ["New Delhi", "mumbai", "punjab", "Haryana"],
+#     "marks": [546, 75 ,67, 67]
+# }
+#
+# df = pd.DataFrame(dic)
+#
+# df["extramarks"] = df["marks"]+10
+#
+# print(df)
+
+
+
+# dic = {
+#     "sem1": [101, 102, 103, 104],
+#     "sem2": [10, 20, 30, 40]
+# }
+#
+# df = pd.DataFrame(dic)
+#
+# df["final"] = df["sem1"] + df["sem2"]
+#
+# print(df)
+
+
+dic = {
+    "rollno": [101, 102, 103, 104],
+    "name": ["Rahul", "Sumit", "amit", "ajay"],
+    "city": ["New Delhi", "mumbai", "punjab", "Haryana"],
+    "marks": [546, 75 ,67, 67]
+}
+
+df = pd.DataFrame(dic)
 print(df)
+
+# del df["marks"]
+# print(df)
+
+df.pop("city")
+
+print(df)
+
+
+# loop
+#     - series
+#     - df
+#
+# slicing
+#     - series
+#     - df
