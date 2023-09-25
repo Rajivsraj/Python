@@ -41,5 +41,40 @@ import pandas as pd
 # print(df.to_string(index=False))
 
   
+# df = pd.read_csv("csv/emp_details.csv")
+# print(df)
+
+
+# dic = {
+#     "name": pd.Series([1, 2, 3, 4], index=["a", "b", "c", "d"]),
+#     "marks": pd.Series([30, 40, 50, 50, 60], index=["aa", "bb", "cc", "dd", "ee"])
+# }
+#
+# df = pd.DataFrame(dic)
+# print(df)
+
+
 df = pd.read_csv("csv/emp_details.csv")
-print(df)
+# print(df)
+# print(df["name"])
+
+# print(df.loc[0])
+# print(df.loc[0:5])
+
+# print(df.loc[0:5, ["name", "city"]])
+# print(df.loc[5:8, ["name", "city"]])
+# print(df.loc[:, ["name", "city"]])
+# print(df.loc[:, ["name", "city"]])
+
+# print(df)
+# print(df.iloc[0, 3])
+# print(df.iloc[0, 4])
+
+# print(df.iloc[:3, 3])
+# print(df.iloc[:3, 1:4])
+
+# print(df.head())
+# print(df.head(7))
+
+# print(df.tail())
+# print(df.tail(6))
